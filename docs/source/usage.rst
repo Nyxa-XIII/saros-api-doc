@@ -3,32 +3,29 @@ Usage
 
 .. _installation:
 
-Installation
-------------
+Accessing Saros
+---------------
 
-To use Lumache, first install it using pip:
+To get started working with Saros, join the Underworld Headquarters discord server!
+From there, you can access him directly using the commands outlined below.
 
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
-Creating recipes
-----------------
+Creating Tasks
+--------------
 
 To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+you can use the ``saros.get_random_ingredients()`` function:
 
 .. autofunction:: lumache.get_random_ingredients
 
 The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
+or ``"veggies"``. Otherwise, :py:func:`saros.get_random_ingredients`
 will raise an exception.
 
 .. autoexception:: lumache.InvalidKindError
 
 For example:
 
->>> import lumache
+>>> import saros
 >>> lumache.get_random_ingredients()
 ['shells', 'gorgonzola', 'parsley']
 
