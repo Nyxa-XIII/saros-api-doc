@@ -1,5 +1,5 @@
 Welcome to the Saros docs!
-==========================
+##########################
 
 **Saros** (/seh'raas/) is a discord bot created by Asami Umbra to enhance the over-all productivity of the husks of underworld headquarters.
 
@@ -12,7 +12,7 @@ Check out the :doc:`usage` section for further information, including how to mee
    This project is under active development.
 
 Contents
---------
+========
 
 .. toctree::
 
