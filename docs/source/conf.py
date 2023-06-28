@@ -5,6 +5,7 @@
 project = 'Saros'
 copyright = '2023, Asami Umbra'
 author = 'Asami Umbra'
+master_doc = 'index'
 
 release = '0.1'
 version = '0.1.0'
