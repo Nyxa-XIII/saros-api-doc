@@ -43,18 +43,6 @@ List Suggestions
 List Tasks
 ----------
 
-
-To view your current list of tasks, ,
-you can use the ``saros.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`saros.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
 For example:
 
 code-block:: text
